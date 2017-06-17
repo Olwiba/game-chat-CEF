@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="resources/vendor/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="resources/vendor/css/AdminLTE.min.css" />
+  <link rel="stylesheet" href="resources/vendor/css/skin-green.min.css" />
+  <link rel="stylesheet" href="resources/vendor/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="resources/vendor/css/ionicons.min.css" />
+  <script src="resources/vendor/js/jquery-3.1.0.min.js"></script>
+  <script src="resources/vendor/js/bootstrap.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="resources/chat/chat.css" />
+
+  <!--<style type="text/css">
+    body {
+      overflow: hidden;
+    }
+  </style> -->
+</head>
+
+<body>
+  <div class="chat-container">
+    <div class="nav-tabs chat-window">
+      <ul class="nav nav-tabs chat-tabs">
+        <li class="chat-tab chat-tab-general active"><a href="#general" data-chat-id="general" data-toggle="tab">General</a></li>
+        <li class="chat-tab chat-tab-clan"><a href="#clan" data-chat-id="clan" data-toggle="tab">Clan Chat</a></li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane chat-pane active" id="general"></div>
+        <div class="tab-pane chat-pane" id="clan"></div>
+      </div>
+      <!-- /.tab-content -->
+    </div>
+
+    <div class="chat-input-container">
+      <input type="text" name="chat-input-text" class="chat-input-text" data-chat-id="general" id="chat-input-text">
+    </div>
+    </div>
+  </div>
+
+</body>
+
+<script src="resources/chat/chat.js" type="text/javascript"></script>
+<script type="text/javascript">
+  function CloseCEF() {
+    resourceCall("close_help_cef");
+  }
+</script>
+
+</html>

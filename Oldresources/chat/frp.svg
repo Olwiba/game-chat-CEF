@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="80" viewbox="0 0 250 80">
+	<defs>
+		<linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="0%">
+			<stop offset="0%" style="stop-color:rgb(0,99,68);stop-opacity:1" />
+			<stop offset="100%" style="stop-color:rgb(0,202,81);stop-opacity:1" />
+		</linearGradient>
+	</defs>
+	<path id="Back" fill="black" d="
+		M9,2
+		H188
+		L199,11
+		L201,2
+		H231
+		L245,13.5
+		V37
+		L243,44
+		H223.5
+		V64
+		L221,72
+		H202
+		L200,79
+		H178
+		V72
+		H156
+		V30
+		H146.5
+		V41
+		L144,44
+		H156
+		V72
+		H113.5
+		V60
+		L101.5,72
+		H50
+		V30
+		H40
+		V40
+		L38,48
+		H31.75
+		V64
+		L29.25,72
+		H7
+		V10
+		Z" />
+	<path id="Gradient_Letters" fill="url(#green)" d="
+		M12.25,5.5
+		H156
+		V19
+		H135
+		V27.75
+		H143
+		V37.25
+		H135
+		V47.25
+		H156
+		V61
+		H119
+		V5.5
+		H92
+		V47
+		H98
+		V5.5
+		H114
+		V49
+		L101.5,61
+		H76
+		V5.5
+		H71
+		V61
+		H55
+		V5.5
+		H50
+		V19
+		H28
+		V28
+		H36.25
+		V37
+		H28
+		V61
+		H12.25
+		Z" />
+	<g id="white" fill="white">
+		<path id="Letter_R" d="
+			M161.75,5.5
+			H177.5
+			V27.75
+			H183.25
+			V19
+			H177.5
+			V5.5
+			H187
+			L199,15
+			V33.5
+			H190.25
+			L199,42
+			V68
+			H183.25
+			V44
+			L177.5,38
+			V61
+			H161.75
+			Z" />
+		<path id="Letter_P" d="
+			M204.25,5.5
+			H230
+			L242,15
+			V19
+			H220
+			V27.75
+			H226
+			V19
+			H242
+			V33.5
+			H220
+			V61
+			H204.25
+			Z" />
+	</g>
+</svg>
