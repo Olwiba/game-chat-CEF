@@ -1,0 +1,25 @@
+{
+  "name": "game-chat-cef",
+  "version": "1.0.0",
+  "description": "Game chat for CEF screen.",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-sass": "^2.0.0",
+    "jshint-stylish": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olwiba/game-chat-CEF.git"
+  },
+  "author": "olwiba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Olwiba/game-chat-CEF/issues"
+  },
+  "homepage": "https://github.com/Olwiba/game-chat-CEF#readme"
+}
