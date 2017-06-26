@@ -7,12 +7,12 @@ Note: This chat has funcitonality but needs to be wired up to an API to replace 
 
 ## :wrench: Features:
 
-###:point_right: Add message
+### :point_right: Add message
 To add a new message just call `addMessage({message}, {chatId})` and will add the message to the correct chat window
-###:point_right: Add private message
+### :point_right: Add private message
 To add a private message you just need to call `newPrivateMessage({userName})` passing in the username variable
-###:point_right: Exit private message tabs
-###:point_right: Auto cleans history
+### :point_right: Exit private message tabs
+### :point_right: Auto cleans history
 
 ## :meat_on_bone: Extras:
 - Update the event listeners at the bottom to change keys
