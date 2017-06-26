@@ -24,7 +24,6 @@ function joinMessage(chatName, chatId, privateMessage) {
 function switchTab(e) {
   var target = $(e).data('chat-id');
   $('#chat-input-text').data('chat-id', target);
-  console.log('new target: ', $('#chat-input-text').data('chat-id'));
 }
 
 function defaultTab() {
@@ -47,8 +46,6 @@ function cleanChat(chatId) {
 // ============= Update scroll =============
 function updateScroll(chatId) {
   var scrollTop = $('#' + chatId).height();
-  console.log($('#' + chatId).height());
-  console.log($('#' + chatId + ' div').length);
   $('#' + chatId).stop().animate({ scrollTop: scrollTop }, 100);
 }
 
