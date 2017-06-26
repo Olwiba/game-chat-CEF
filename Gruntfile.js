@@ -28,8 +28,7 @@ module.exports = function (grunt) {
       },
       build: {
         files: {
-          'dist/js/hello.min.js': 'src/js/*.js'
-          // Multiple files: 'dist/js/magic.min.js': ['src/js/magic.js', 'src/js/magic2.js']
+          'dist/js/bundle.min.js': 'src/js/*.js'
         }
       }
     },
@@ -56,18 +55,18 @@ module.exports = function (grunt) {
     // configure watch to auto update ----------------
     watch: {
 
-      // for stylesheets, watch css and less files 
-      // only run less and cssmin stylesheets: { 
+      // for stylesheets, watch css and less files
+      // only run less and cssmin stylesheets: {
       files: ['src/css/*.css', 'src/css/vendor/*.css', 'src/sass/*.scss'],
       tasks: ['sass', 'cssmin'],
 
-      // for scripts, run jshint and uglify 
+      // for scripts, run jshint and uglify
       scripts: {
         files: 'src/**/*.js', tasks: ['jshint', 'uglify']
       }
     }
 
-    
+
 
   });
 
