@@ -3,9 +3,9 @@
 A simple game chat UI.
 Origonally made to be added as a CEF screen but is multipurpose.
 
+Some things still need to be fleshed out but this is start.
+
 Note: This chat has funcitonality but needs to be wired up to an API to replace the placeholder data.
-
-
 
 ## :wrench: Features:
 
