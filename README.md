@@ -5,6 +5,8 @@ Origonally made to be added as a CEF screen but is multipurpose.
 
 Note: This chat has funcitonality but needs to be wired up to an API to replace the placeholder data.
 
+
+
 ## :wrench: Features:
 
 ### :point_right: Add message
